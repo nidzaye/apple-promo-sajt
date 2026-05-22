@@ -1,0 +1,330 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #d8dbe2;
+  color: #1d1d1f;
+  margin: 0;
+}
+
+/* NAVIGACIJA */
+
+.site-nav {
+  background: #111;
+  padding: 15px 0;
+  border-bottom: 3px solid #0d6efd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: 20px;
+}
+
+.menu a:hover,
+.menu a.active {
+  background: #0d6efd;
+  color: white;
+}
+
+/* HERO */
+
+.hero-section,
+.page-hero {
+  padding: 55px 0;
+}
+
+.page-hero {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.hero-section h1,
+.page-hero h1 {
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.lead-text {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* SEKCIJE */
+
+.content-section {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 24px;
+  padding: 32px;
+  margin-bottom: 35px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.10);
+}
+
+.content-section h2 {
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.content-section p {
+  line-height: 1.7;
+}
+
+.small-title {
+  color: #0d6efd;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+}
+
+/* SLIKE */
+
+.main-img,
+.section-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 22px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.14);
+  background: #eeeeee;
+}
+
+.main-img {
+  height: 450px;
+}
+
+.hero-phone-box {
+  background: #eeeeee;
+  border-radius: 22px;
+  height: 450px;
+  padding: 18px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.iphone-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  transform: scale(1.25);
+}
+
+.product-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: contain;
+  background: #eeeeee;
+  padding: 10px;
+  border-radius: 18px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+/* KARTICE */
+
+.info-card,
+.product-card,
+.contact-box {
+  background: white;
+  border-radius: 22px;
+  padding: 24px;
+  height: 100%;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+}
+
+.info-card h3,
+.product-card h3 {
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.product-card {
+  text-align: center;
+  transition: 0.25s;
+}
+
+.product-card:hover,
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+/* APPLE WATCH */
+
+.watch-box {
+  width: 100%;
+  height: 240px;
+  background: #eeeeee;
+  padding: 10px;
+  border-radius: 18px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.watch-box img {
+  width: auto;
+  height: auto;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  transform: scale(1.50);
+}
+
+/* LISTE */
+
+.nice-list {
+  background: white;
+  border-radius: 18px;
+  padding: 22px 35px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.nice-list li {
+  margin-bottom: 8px;
+}
+
+/* TABELA */
+
+.table {
+  background: white;
+}
+
+.table th {
+  background: #111;
+  color: white;
+}
+
+/* FORMA */
+
+.form-control,
+.form-select {
+  border-radius: 14px;
+  padding: 11px;
+}
+
+iframe {
+  border-radius: 18px;
+}
+
+/* DUGMAD */
+
+.btn {
+  border-radius: 20px;
+  margin: 4px;
+}
+
+/* FOOTER */
+
+.site-footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+  border-top: 3px solid #0d6efd;
+}
+
+.imac-box {
+  width: 100%;
+  height: 240px;
+  background: #eeeeee;
+  padding: 10px;
+  border-radius: 18px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.imac-box img {
+  width: auto;
+  height: auto;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  transform: scale(1.18);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .nav-wrap {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-section h1,
+  .page-hero h1 {
+    font-size: 38px;
+  }
+
+  .content-section {
+    padding: 22px;
+  }
+
+  .main-img,
+  .section-img {
+    height: 260px;
+  }
+
+  .hero-phone-box {
+    height: 300px;
+  }
+
+  .product-card img {
+    height: 210px;
+  }
+
+  .watch-box {
+    height: 210px;
+  }
+
+  .watch-box img {
+    transform: scale(1.15);
+  }
+}
